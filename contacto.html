@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script defer src="js/app.js"></script>
+    <title>JapónMotos</title>
+  </head>
+  <body>
+    <header class="main__header">
+      <nav class="nav">
+        <a href="#" class="logo">
+          <img
+            src="./imagenes/motito.png"
+            height="50px"
+            width="50px"
+            alt="JapónMotos"
+          />
+          <div>JapónMotos<br /></div>
+        </a>
+        <button class="open__menu" aria-label="Abrir menú">
+          <img src="./imagenes/hamburger-icon.svg" alt="Abrir menú" />
+        </button>
+        <ul class="menu">
+          <button class="close__menu" aria-label="Cerrar menú">
+            <img src="./imagenes/close-icon.svg" alt="Cerrar menú" />
+          </button>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="marcas.html">Marcas</a></li>
+          <li><a href="posventa.html">Posventa</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Inicio de Formulario -->
+    <div class="container section">
+      <h1>Contacto</h1>
+      <form class="my-5">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="name" />
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            Nunca compartiremos tus datos con alguien más
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Example textarea</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <!-- Cierre de Formulario -->
+    <footer class="footer">
+      <div class="footer__contenedor">
+        <a class="logo" href="./index.html">
+          <img src="./imagenes/motito.png" alt="Logo" />
+          <h3>JapónMotos</h3>
+        </a>
+        <div>
+          <a href="#">
+            <img
+              src="./imagenes/facebook.png"
+              alt="facebook"
+              height="70px"
+              width="70px"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./imagenes/youtube.png"
+              alt="youtube"
+              height="70px"
+              width="70px"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./imagenes/ig.png"
+              alt="instagram"
+              height="70px"
+              width="70px"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
